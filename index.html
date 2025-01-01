@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="container">
+        <div class="head">
+            <h1>Dictionary Web App</h1>
+            <p>Enter your word, we will find the meaning of the word</p>
+        </div>
+        <div class="main">
+            <input type="text" id="searchText">
+            <button id="searchBtn" onclick="getData()">Search</button>
+        </div>
+        <div class="result" id="result">
+            <p id="errText"></p>
+        </div>
+        
+    </section>
+</body>
+</html>
