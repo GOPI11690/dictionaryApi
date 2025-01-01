@@ -25,7 +25,7 @@ async function getData(){
             errText.textContent="";
                 const url=`https://api.dictionaryapi.dev/api/v2/entries/en/${searchWord}`;   // dictionary api url stored in variable
                 try{
-                    const response= await fetch(url);       //fetchinfg the data from dictionary api url
+                    const response= await fetch(url);       //fetching the data from dictionary api url
                     if(!response.ok){                       //check response with ok message
                         throw new Error(`Response Status : ${response.status}`);
                     }
